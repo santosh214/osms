@@ -1,0 +1,72 @@
+body{
+
+    color: rgb(30, 240, 23);
+    
+}
+.navbar{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar #myMenu .custom-nav .nav-item a{
+color: rgb(0, 217, 255);
+font-weight: bold;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: rgb(4, 0, 255);
+    font-size: large;    
+    }
+
+    /* make image responsive  */
+    .back-image{
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center center;
+background-repeat:no-repeat;
+min-height: 90vh;
+border-radius: 0px;
+margin-top: 74px;
+}
+.mainHeading{
+    margin-top: 85px;
+}
+
+.container {
+    color: black;
+}
+.fi-color{
+    color:#dc3545;
+}
+.fi-color:hover{
+    color: #e994a2;
+}
+
+a{
+    color: coral;
+}
+.active{
+    color: white;
+    background-color: #dc3545;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+/* media query */
+@media only screen and (max-width:600px){
+.myclass{
+margin-top: 50%;
+text-align: center;
+}
+.myclass a {
+    margin: 35px;
+}
+}
