@@ -20,14 +20,20 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2 bg-light sidebar">
-                <div class="">
-                <ul><li><a href=""><i> </i></a></li></ul>
+            <div class="col-sm-2 bg-light sidebar py-5">
+                <div class="sidebar-sticky">
+                <ul class="nav flex-column"><li class="nav-item"><a href="requesterProfile.php" class="nav-link"><i class="fas fa-user">  </i>Profile</a></li></ul>
                 </div>
             </div>
         </div>
     </div>
     <!-- end side bar  -->
+
+<!-- javascript  -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/all.min.js"></script>
 </body>
 
 </html>
